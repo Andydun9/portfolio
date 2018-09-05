@@ -24,7 +24,7 @@ header{
 
 #topPhoto{
     width: 150px;
-    position: absolute;
+    float: left;
     margin-left: 1.5em;
     border-radius: 75px;
 }
@@ -71,6 +71,12 @@ a{
     color: #272D2D;
 }
 
+
+
+.select{
+    color: #23CE6B;
+}
+
 a:hover{
     color:#A39BA8;
     text-decoration: none;
@@ -107,4 +113,31 @@ p{
 .icon{
     width: 25px;
     margin: .25em;
+}
+
+/* resume styling */
+
+h5{
+    color: #272D2D;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin-bottom: -2em;
+    margin-top: 1em;
+}
+
+#education{
+    margin-bottom: .5em;
+    margin-top: 2em;
+}
+
+h4{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.job{
+    color: #272D2D;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin-top: 3em;
+    text-align: center;
 }
