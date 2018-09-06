@@ -141,3 +141,93 @@ h4{
     margin-top: 3em;
     text-align: center;
 }
+
+/* Projects page */
+
+.col-left{
+    float: left;
+    width: 35%;
+    margin-left: 7em;
+
+}
+
+.col-right{
+    float: right;
+    width:35%;
+    margin-right: 7em;
+}
+
+/* sticky footer */
+
+
+
+.site-footer{
+
+ margin-top: 1500px;
+ width: 100%; 
+}
+
+/* .project-body{
+    margin-bottom:500px;
+} */
+
+/* contact form */
+
+.colForm-left{
+    float: left;
+    width:25%;
+    margin-left: 5em;
+}
+
+.colForm-right{
+    float:right;
+    margin-right: 5em;
+    width:50%;
+}
+
+#name{
+    width: 50%;
+    padding: .25em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#email{
+    width: 50%;
+    padding: .25em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.formInput{
+    width:75%;
+    padding-bottom: 7em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+#contact{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.button{
+    border: #272D2D solid 1px;
+    padding: .55em .75em;
+    background-color:#A39BA8;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-radius: 5px;
+    color:#EDF5FC;
+}
+
+.button:hover{
+    border: #272D2D solid 1px;
+    padding: .55em .75em;
+    background-color:#272D2D;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-radius: 5px;
+    color: #EDF5FC;
+}
+
+.siteFooter{
+    margin-top: 500px;
+    width: 100%; 
+}
