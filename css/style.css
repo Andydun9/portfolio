@@ -95,6 +95,12 @@ p {
 .carousel-item{
     height: 600px;
     
+   
+}
+
+.carousel{
+    width: 85%;
+    margin:auto;
 }
 
 /* footer */
@@ -144,7 +150,7 @@ h4{
 
 /* Projects page */
 
-.col-left{
+/* .col-left{
     float: left;
     width: 35%;
     margin-left: 7em;
@@ -155,6 +161,31 @@ h4{
     float: right;
     width:35%;
     margin-right: 7em;
+} */
+
+
+.project{
+    width: 40%;
+    display: inline-block;
+margin: 3em;
+vertical-align: top;
+}
+
+.portfolioImage{
+    width: 350px;
+    height: 250px;
+}
+
+.content-body{
+    width: 90%;
+    display: inline-block;
+
+}
+
+.free{
+    width: 90%;
+    display: inline-block;
+    margin:3em;
 }
 
 /* sticky footer */
@@ -231,3 +262,8 @@ h4{
     margin-top: 1000px;
     width: 100%; 
 }
+
+#tech{
+    width: 10%;
+}
+
