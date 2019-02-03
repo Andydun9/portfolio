@@ -185,7 +185,7 @@ vertical-align: top;
 .free{
     width: 90%;
     display: inline-block;
-    margin:3em;
+    margin: 3em;
 }
 
 /* sticky footer */
@@ -265,5 +265,23 @@ vertical-align: top;
 
 #tech{
     width: 10%;
+}
+
+/* Photography */
+
+.photo{
+width: 75%;
+margin:auto;
+margin-top: 3em;
+}
+
+.photos{
+    width: 325px;
+    border: solid #fff 5px;
+    margin: .25em;
+}
+
+.photos:hover{
+opacity: 0.7;
 }
 
